@@ -5,10 +5,6 @@ let state = {
   goals: []             // [{ id, name, target, saved, date, emoji }]
 };
 
-/* =============================================
-   HELPERS
-============================================= */
-
 /** Generate a unique ID */
 function uid() {
   return Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
